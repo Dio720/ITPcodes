@@ -4,7 +4,6 @@
 int fuso_horario(int x, int y, int z){
     int chegada;
     chegada = x + y + z;
-    
     if (chegada > 23){
         chegada -= 24;
     }
@@ -16,10 +15,7 @@ int fuso_horario(int x, int y, int z){
 
 int main(){
     int partida, tempo_viagem, diff_horario;
-    
     scanf("%d %d %d", &partida, &tempo_viagem, &diff_horario);
-    
     fuso_horario(partida, tempo_viagem, diff_horario);
-
     return 0;
 }
