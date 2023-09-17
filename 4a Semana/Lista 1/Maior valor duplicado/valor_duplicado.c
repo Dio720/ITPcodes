@@ -14,7 +14,7 @@ int main() {
         for(int j = 0; j < tam; j++) {
             if(i != j) {
                 if(vetor[i] == vetor[j]) {
-                    if(pimeiro) {
+                    if(primeiro) {
                         maior = vetor[i];
                         primeiro = false;
                     } else if(vetor[i] > maior) {
