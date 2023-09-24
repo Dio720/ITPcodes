@@ -22,6 +22,7 @@ int main(){
             scanf("%d", &matriz[i][j]);
         }
     }
+    
     int resultado = soma_diagonal(matriz, n);
     printf("%d", resultado);
 
