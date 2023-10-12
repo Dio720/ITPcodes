@@ -17,7 +17,6 @@ void ordena_times(Time times[], int n) {
             }
 }
 
-
 int main(){
     int qntd_times;
     Time times[30];
