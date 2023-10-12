@@ -25,13 +25,11 @@ int main(){
     scanf("%d", &qntd_times);
 
     for (int i = 0; i < qntd_times; i++){
-    scanf(" %[^\n]", times[i].nome);
-    scanf("%d %d", &times[i].golsMarcados, &times[i].golsSofridos);
+        scanf(" %[^\n]", times[i].nome);
+        scanf("%d %d", &times[i].golsMarcados, &times[i].golsSofridos);
     }
 
-
     ordena_times(times, qntd_times);
-
 
     int indice = 1;
     for (int i = 0; i < qntd_times; i++){        
